@@ -1,0 +1,138 @@
+body
+{
+  overflow-x: hidden;
+}
+.p{
+
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #00baf2;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+ 
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+} 
+.btn-outline
+{
+  border: 1px solid #00baf2;
+  padding: 5px 40px; 
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.5s ease-in-out;
+}
+.btn-outline:hover
+{
+  color: #fff;
+  background-color: #00baf2;
+}
+
+/* Style the search field */
+/*form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}*/
+/* Style the navigation bar */
+.test {
+  background-color: #4150b5;
+  height: 75px;
+}
+
+/* Navbar links */
+.test a {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+/* Navbar links on mouse-over */
+.test a:hover {
+  background-color: #00baf2;
+}
+.category-1
+{
+  background-color: #4150b5;
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: 'cursive', cursive;
+}
+.main-heading
+{
+  font-size: 20px;
+  font-family: cursive;
+}
+.siderbar{
+  background-color: #4150b5;
+  border-radius: 10px;
+  color: white;
+  font-size: 19px;
+  font-family: cursive; 
+}
+.siderbar a
+{
+  color: white;
+}
+.siderbar a:hover {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+.box-zoom .imgbox
+{
+  position: relative;
+  overflow: hidden;
+}
+.box-zoom .imgbox img
+{
+  transition: transform 1.5s;
+}
+.box-zoom:hover .imgbox img
+{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.checked {
+  color: orange;
+}
+.footerline
+{ 
+  text-decoration: none !important;
+  color: black;
+  text-underline:none;
+  transition: all 0.5s ease;
+}
+.footerline:hover
+{
+  font-size: 14px;
+  margin-left: 10px;
+  letter-spacing: 3px;    
+  word-spacing: 5px;
+  color: black;
+}

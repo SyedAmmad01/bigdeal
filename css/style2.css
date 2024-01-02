@@ -1,0 +1,525 @@
+body
+{
+  overflow-x: hidden;
+}
+.p{
+
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4150b5;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+ 
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+} 
+.btn-outline
+{
+  border: 1px solid #4150b5;
+  padding: 5px 40px; 
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.5s ease-in-out;
+}
+.btn-outline:hover
+{
+  color: #fff;
+  background-color: #4150b5;
+}
+
+/* Style the search field */
+/*form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}*/
+/* Style the navigation bar */
+.test {
+  background-color: #4150b5;
+
+}
+
+/* Navbar links */
+.test a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: cursive;
+  text-align: center;
+}
+
+/* Navbar links on mouse-over */
+.test a:hover {
+  background-color: #4150b5;
+}
+.siderbar{
+  background-color: #4150b5;
+  border-radius: 10px;
+  color: white;
+  font-size: 19px;
+  font-family: cursive; 
+}
+.siderbar a
+{
+  color: white;
+}
+.siderbar a:hover {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+.category-1
+{
+  background-color: #4150b5;
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.main-image-content
+{
+  background: url(../images/photo116.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: white;*/
+  /*background-attachment: fixed;*/
+  height: 80vh;
+  width: 100%;
+}
+.main-image-content1
+{
+  background: url(../images/photo114.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: white;*/
+  /*background-attachment: fixed;*/
+  height: 35vh;
+  width: 135%;
+}
+.main-image-content2
+{
+  background: url(../images/photo115.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: white;*/
+  /*background-attachment: fixed;*/
+  height: 42vh;
+  width: 135%;
+}
+.main-image-content h3
+{
+  color: blue;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.main-image-content h1
+{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.main-image-content button
+{
+  background-color: #4150b5;
+  width: 120px;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.main-image-content button:hover
+{
+  background: white;
+  color: purple;
+  border: 1px solid purple; 
+}
+.main-image-content1 h3
+{
+  color: blue;
+  font-weight: 700;
+  letter-spacing: 3px; 
+}
+.main-image-content1 h4
+{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 3px; 
+}
+.main-image-content1 button
+{
+  background-color: red;
+  width: 120px;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 5px; 
+}
+.main-image-content1 button:hover
+{
+  background: white;
+  color: red;
+  border: 1px solid red; 
+}
+.main-image-content2 h3
+{
+  color: blue;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.main-image-content2 h4
+{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.main-image-content2 button
+{
+  background-color: green;
+  width: 120px;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 5px; 
+}
+.main-image-content2 button:hover
+{
+  background: white;
+  color: green;
+  border: 1px solid green; 
+}
+.btn1 {
+  border: none;
+  width: 100%;
+  height: 60px;
+  border-radius: 2px;
+  font-family: cursive;
+  color: #000;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+
+.btn1:hover {
+  background-color: #4150b5;
+
+}
+
+.heading1
+{
+  text-decoration: underline;
+  text-decoration-color: #4150b5;
+  font-family: cursive; 
+}
+/*.Snow .btn {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.Snow .btn:hover {
+  background-color: black;
+}
+.snow {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: white;
+  font-size: 25px;
+  font-family: fantasy;
+  transform: translate(-50%, -50%);
+}*/
+.div h4 span{
+  text-decoration: line-through;
+}
+.btn2 {
+  background-color: #4150b5;
+  width: 90%;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.btn2:hover
+{
+  background-color: white;
+  color: #4150b5;
+  border: 2px solid #4150b5;
+}
+.centered1
+ {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+}
+.checked {
+  color: orange;
+}
+.big-ul li 
+{
+  list-style: none;
+}
+.big-ul li i 
+{
+  font-size: 10px;
+  color: purple;
+  padding: 2px 5px;
+}
+.shoes-banner
+{
+  background: url(../images/photo122.jpg);
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  height: 80vh;
+}
+.summer-content h2
+{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 180px;
+  padding-right: 150px;
+}
+.summer-content h1
+{
+  color: #4150b5;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  padding-right: 130px;
+  font-size: 50px;
+}
+.summer-content h3
+{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-right: 220px;
+}
+.summer-content button
+{
+  background-color: #4150b5;
+  width: 200px;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-right: 240px;
+}
+.summer-content button:hover
+{
+  background: transparent;
+  color: purple;
+  border: 1px solid purple;
+}
+.collection-content
+{
+  background: url(../images/photo222.jpg);
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  height: 100vh; 
+}
+.collection-content-heading-tital
+{
+  padding-top: 100px;
+  color: black;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  font-size: 30px; 
+}
+.collection-content-heading-dec
+{
+  color: black;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  font-size: 15px; 
+}
+.collection-content-button
+{
+  background-color: #4150b5;
+  width: 120px;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.collection-content-button:hover
+{
+  background: white;
+  color: purple;
+  border: 1px solid purple;
+}
+.collection-content2
+{
+  background: url(../images/photo111.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 330px;
+  width: 100%;
+}
+.collection-content3
+{
+  background: url(../images/photo112.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  /*background-color: white;*/
+  /*background-attachment: fixed;*/
+  height: 300px;
+  width: 100%;
+}
+.collection-content4
+{
+  background: url(../images/photo113.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-color: white;*/
+  /*background-attachment: fixed;*/
+  height: 100vh;
+  width: 100%;
+}
+.btn3 {
+  background-color: #4150b5;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+.btn3:hover
+{
+  background-color: white;
+  color: #4150b5;
+  border: 2px solid #4150b5;
+}
+.btn4 {
+  background-color: #4150b5;
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+.btn4:hover
+{
+  background-color: white;
+  color: #4150b5;
+  border: 2px solid #4150b5;
+}
+.box-zoom .imgbox
+{
+  position: relative;
+  overflow: hidden;
+}
+.box-zoom .imgbox img
+{
+  transition: transform 1.5s;
+}
+.box-zoom:hover .imgbox img
+{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.footerline
+{ 
+  text-decoration: none !important;
+  color: black;
+  text-underline:none;
+  transition: all 0.5s ease;
+}
+.footerline:hover
+{
+  font-size: 14px;
+  margin-left: 10px;
+  letter-spacing: 3px;    
+  word-spacing: 5px;
+  color: black;
+}
+footer
+{
+  background-color: #fff;
+}
+/*.store-locator {
+  background-color: #e62a16;
+  height: 50px;
+  width: 15%;
+  padding-bottom: 10px;
+
+   }
+
+  .store-locator select {
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    background: url(../images/pin.png) no-repeat 88%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+     }
+
+select {}
+    .store-locator select option {
+      background-color: #4150b5; }*/
